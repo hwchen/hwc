@@ -1,6 +1,6 @@
 +++
 date = "2014-09-02T13:48:09-04:00"
-draft = true
+draft = false 
 title = "About"
 menu = "main"
 +++
