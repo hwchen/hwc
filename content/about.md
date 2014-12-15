@@ -12,20 +12,19 @@ Currently interested in:
 - Back-end development
 - Data processing
 - Linux and CLI
-- Python and Golang
+- Haskell and Python 
 
 Some stuff for the future:
 
-- SICP and algorithms
-- Haskell
-- Numerical computing
+- NLP and machine learning
+- High performance computing
 
 Some other stuff I love doing:
 
 - Yoga and Tai Chi
 - Go (the game)
 
-In previous lives I've been:
+In previous lives I've been a:
 
 - Lawyer
 - Martial Arts instructor
