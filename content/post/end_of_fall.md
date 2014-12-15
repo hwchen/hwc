@@ -20,4 +20,6 @@ I tried to use books before, but they felt too "boring," which I guess was my br
 
 I've also started going through algorithms and data structure with a friend from the Go club. I think that it's going to be super helpful. I forget if I mentioned it in a previous post, but I'm realizing that I'm a very social learner. While I do like to read, most of the integration comes from talking with others. And not just listening, it has to be interactive. I think that's why it felt easy to learn Go and martial arts: lots of social feedback.
 
+I've also noticed that online classes don't really do it for me. It's very difficult for me to sit passively through a lecture now. So, I won't be doing a lot of online courses on my own, although I'll probably pick up bits and pieces here and there, and I might go through exercises with a friend.
+
 So, I'm going to apply this newfound knowledge! Less "trying to figure things out on my own," more looking for like-minded people for all the things I want to learn: yoga, martial arts, Go, programming, languages. (I think that at this point in my life, I'm also just less embarassed about what I don't know or can't do).
