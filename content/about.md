@@ -24,6 +24,8 @@ Some other stuff I love doing:
 - Yoga and Tai Chi
 - Go (the game)
 
+I help organize the [Massachusetts Go Association](http://www.massgo.org) and its [ladder tournament](http://ladder.massgo.org).
+
 In previous lives I've been a:
 
 - Lawyer
