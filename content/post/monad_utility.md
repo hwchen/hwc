@@ -51,7 +51,7 @@ This idea of a context for values has really helped me understand some of the ab
 Ok, now knowing the basic structure of how things fit together, I needed to actually put it together.
 
 
-`getDirectoryContents` takes a `FilePath` as an argument, but `getCurrentDirectory` returns an `IO FilePath`. They don't match! so what should I do? I just realized now that I could have used `<-` or `>>=` to bind the value inside `IO FilePath'. But I had learned something fancier last night, `liftM`! And I wanted to use it! I knew that I could "lift" the function into the Monad context, so that it could operate on a value enclosed in a Monad (like IO). So I did, and it worked great, except now there was a nested monad.
+`getDirectoryContents` takes a `FilePath` as an argument, but `getCurrentDirectory` returns an `IO FilePath`. They don't match! so what should I do? I just realized now that I could have used `<-` or `>>=` to bind the value inside `IO FilePath`. But I had learned something fancier last night, `liftM`! And I wanted to use it! I knew that I could "lift" the function into the Monad context, so that it could operate on a value enclosed in a Monad (like IO). So I did, and it worked great, except now there was a nested monad.
 
 ```
 liftM getDirectoryContents getCurrentDirectory :: IO(IO [FilePath]))
