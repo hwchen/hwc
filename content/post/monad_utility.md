@@ -89,7 +89,7 @@ So, the problem of getting rid of the nesting was solved with join!
 join (liftM getDirectoryContents getCurrentDirectory) :: IO [FilePath]
 ```
 
-Now I could bind it to a function using the `>>=` operator. But notice that since the type is `IO [FilePath]`, I can't just use `putStrLn`, which takes a `String` and not a `[String]`. What I'd like to do is map the function `putStrLn` to each of the values in `[FilePath]`.
+Now I could bind it to a function using the `>>=` operator. But notice that since the type of the argument would be `IO [FilePath]`, I can't just use `putStrLn`, which takes a `String` and not a `[String]`. What I'd like to do is map the function `putStrLn` to each of the values in `[FilePath]`.
 
 Normal `map` won't work to print. I guess I'm not completely clear why, but I think that using `map` doesn't actually evaluate the monad (in this case `putStrLn`). `mapM` maps and also evaluates and also returns a result. `mapM_` is more appropriate for this case of just printing, where return value is not needed, since it maps and evaluates but doesn't return.
 
@@ -103,7 +103,7 @@ join (liftM getDirectoryContents getCurrentDirectory) >>= mapM_ putStrLn
 
 It's probably more cryptic than, say, a typical Python implementation. But it has its own beauty, that comes from understanding the abstractions and the building blocks that come together to build this piece of code. It fits together kind of like Legos.
 
-I think that after this little excursion, and my attempt to write it up, I'll be able to read a lot more example code! And this was much more fun to me than tring to work through a monster assignment on functors and monads. Start small!
+I think that after this little excursion, and my attempt to write it up, I'll be able to read a lot more example code! And this was much more fun to me than trying to work through a monster assignment on functors and monads. Start small!
 
 
 #### Last lessons
