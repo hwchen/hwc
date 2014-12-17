@@ -46,6 +46,8 @@ This idea of a context for values has really helped me understand some of the ab
 
 `IO` also happens to be a Monad, another abstraction built around the idea of a "container." This time the container encapsulates values and sequences of computations (which appears kind of like imperative programming). With my shallow understanding, I hope I'm not too wrong. In any case, in order to access a value inside a Monad like `IO`, you need to "reach inside," which is the idea behind `h <- getDirectoryContents "/"` By binding the value that was in the IO context, you can work on that value with pure functions.
 
+(Edit 12/16/2014: bind is `(>>=) :: Monad m => m a -> (a -> m b) -> m b`, so the function it takes should take a value but return a Monad (or IO) value. I've seen `<-` described as "slurping" or "draw from")
+
 #### Piecing things together
 
 Ok, now knowing the basic structure of how things fit together, I needed to actually put it together.
