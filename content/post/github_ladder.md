@@ -22,6 +22,8 @@ Today's first major step was to get a workflow so that we could cooperate on the
 3. Pull request from origin branch to upstream master (currently massgo/mgaladder)
 4. After review and merge, then merge changes back to origin and local masters (in whatever preferred order).
 
+We also covered some tools that would be helpful for using Git, like some options for Git log that would enable visualization of branches. I'm also planning on installing the Hub tool.
+
 So, a lot for my brain to take in today. Git is very powerful and flexible, and lots of thanks to Andrew for his help. I don't think I could have figured this out in even a day on my own, and we spent just one hour.
 
 I can see why Git experience in particular is a highly requested skill for software developers. It's not just a "version control" (in perhaps the back-up sense), it's a very powerful coordination software that makes very large engineering projects possible.
